@@ -1,0 +1,26 @@
+{
+  "name": "redux-ramda-reducer",
+  "version": "1.0.0",
+  "description": "One of the various of create reducer with Ramda & Redux",
+  "keywords": [
+    "redux",
+    "ramda",
+    "reducer",
+    "create",
+    "state"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim-kolesnikov/redux-ramda-reducer"
+  },
+  "author": "Maxim Kolesnikov <mxklsn@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/maxim-kolesnikov/redux-ramda-reducer/issues"
+  },
+  "homepage": "https://github.com/maxim-kolesnikov/redux-ramda-reducer#readme",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  }
+}
