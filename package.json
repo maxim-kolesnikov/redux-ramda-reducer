@@ -19,8 +19,5 @@
     "url": "https://github.com/maxim-kolesnikov/redux-ramda-reducer/issues"
   },
   "homepage": "https://github.com/maxim-kolesnikov/redux-ramda-reducer#readme",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  }
+  "main": "lib/index.js"
 }
