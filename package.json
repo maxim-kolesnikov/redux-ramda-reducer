@@ -19,5 +19,12 @@
     "url": "https://github.com/maxim-kolesnikov/redux-ramda-reducer/issues"
   },
   "homepage": "https://github.com/maxim-kolesnikov/redux-ramda-reducer#readme",
-  "main": "lib/index.js"
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "mocha": "2.x.x",
+    "ramda": "^0.25.0"
+  }
 }
