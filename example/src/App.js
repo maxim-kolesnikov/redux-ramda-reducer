@@ -1,30 +1,43 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+import { increment, decrement, setValue } from './redux/counter/actions';
+
 import logo from './logo.svg';
 import './App.css';
-import create from 'redux-ramda-reducer';
 
 class App extends Component {
   render() {
-    console.log(create);
+    const { value } = this.props;
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Your value: <code>{value}</code>
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div id="buttons">
+
+          </div>
         </header>
       </div>
     );
   }
 }
 
-export default App;
+
+const mapStateToProps = ({
+  counter: {
+    value,
+  }
+}) => ({ value });
+
+const mapDispatchToProps = dispatch => 
+  bindActionCreators({
+    setValue,
+    increment,
+    decrement,
+  }, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);

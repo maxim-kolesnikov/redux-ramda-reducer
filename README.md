@@ -5,3 +5,7 @@
 
 ## Getting started
 ... TODO
+
+
+### License
+This module is [MIT licensed](./LICENSE.md).
