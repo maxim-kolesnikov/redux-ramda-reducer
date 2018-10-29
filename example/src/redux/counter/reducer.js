@@ -15,18 +15,10 @@ const decrementHandler = () => R.pipe(
 );
 
 const setValueHandler = ({ value }) => R.pipe(
-  R.evolve({ value })
+  R.assoc('value', value),
 );
 
-const subtractHandler =
-  ({ value: b }) => // action
-  (state) => // state
-  R.pipe(
-    R.evolve({ value: R.subtract(state.value, b) })
-  )(state);
-
 const HANDLERS = {
-  [COUNTER_ACTIONS.SUBTRACT]: subtractHandler,
   [COUNTER_ACTIONS.SET_VALUE]: setValueHandler,
   [COUNTER_ACTIONS.INCREMENT]: incrementHandler,
   [COUNTER_ACTIONS.DECREMENT]: decrementHandler,

@@ -8,8 +8,13 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  state = {
+    inputValue: 100,
+  }
+
   render() {
     const { value } = this.props;
+
     return (
       <div className="App">
         <header className="App-header">
@@ -17,8 +22,20 @@ class App extends Component {
           <p>
             Your value: <code>{value}</code>
           </p>
-          <div id="buttons">
-
+          <div>
+            <div className="button" onClick={() => this.props.decrement()}>Decriment</div>
+            <div className="button" onClick={() => this.props.increment()}>Increment</div>
+          </div>
+          <div className="flexWrapper">
+            <input
+              type='number'
+              className="input-phone"
+              value={this.state.inputValue}
+              onChange={(e) => {
+                this.setState({ inputValue: e.target.value })}
+              }
+            />
+            <div className="button" onClick={() => this.props.setValue({ value: this.state.inputValue })}>Set value</div>
           </div>
         </header>
       </div>

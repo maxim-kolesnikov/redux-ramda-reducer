@@ -30,3 +30,40 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  padding: 0.75em 2em;
+  text-align: center;
+  text-decoration: none;
+  color: #2194E0;
+  border: 2px solid #2194E0;
+  font-size: 24px;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 10px;
+  user-select: none;
+}
+
+.input-phone{
+  display: block;
+  margin: 10px;
+  width: 150px;
+  padding: 0.5em 0.25em;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 21pt;
+  text-align: center;
+  box-shadow: 0 0 1em 0.25em rgba(0,0,0,0.2);
+}
+
+.flexWrapper {
+  display: flex;
+}
+
+input:focus{
+  outline: none;
+}
