@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/maxim-kolesnikov/redux-ramda-reducer"
   },
-  "author": "Maxim Kolesnikov <mxklsn@gmail.com>",
+  "authors": [
+    "Maxim Kolesnikov <mxklsn@gmail.com> (https://github.com/maxim-kolesnikov)",
+    "Konstantin Gapich <galy4a@gmail.com> (https://github.com/Galy4a)"
+  ],
   "bugs": {
     "url": "https://github.com/maxim-kolesnikov/redux-ramda-reducer/issues"
   },
@@ -26,5 +29,9 @@
     "cross-env": "^5.2.0",
     "mocha": "2.x.x",
     "ramda": "^0.25.0"
-  }
+  },
+  "files": [
+    "lib/index.js",
+    "README.md"
+  ]
 }
