@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { increment, decrement, setValue } from './redux/counter/actions';
+import { increment, decrement, setValue } from '../redux/counter/actions';
 
-import logo from './logo.svg';
-import './App.css';
+import logo from '../assets/logo.svg';
+import './styles.css';
 
 class App extends Component {
   state = {
