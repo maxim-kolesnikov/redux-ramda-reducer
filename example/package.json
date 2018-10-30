@@ -10,13 +10,12 @@
     "react-redux": "^5.1.0",
     "react-scripts": "2.0.5",
     "redux": "^4.0.1",
-    "redux-ramda-reducer": "file:../"
+    "redux-ramda-reducer": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "clean:deps": "rm -rf node_modules/ && rm yarn.lock"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
