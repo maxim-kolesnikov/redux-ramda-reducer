@@ -1,6 +1,7 @@
-describe('Create reducer', function() {
-  if (typeof require.resolve !== 'function') {
-    return;
-  }
+import { createReducer } from '../lib';
 
+describe('createReducer', () => {
+  it('initialState', function() {
+
+  });
 });

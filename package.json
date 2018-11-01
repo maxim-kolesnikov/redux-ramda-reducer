@@ -2,6 +2,10 @@
   "name": "redux-ramda-reducer",
   "version": "1.0.0",
   "description": "One of the various of create reducer with Ramda & Redux",
+  "scripts": {
+    "test": "jest",
+    "jest-coverage": "yarn jest --coverage"
+  },
   "keywords": [
     "redux",
     "ramda",
@@ -25,9 +29,11 @@
   "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-register": "^6.26.0",
-    "cross-env": "^5.2.0",
-    "mocha": "2.x.x",
+    "jest": "^23.6.0",
     "ramda": "^0.25.0"
   },
   "files": [
