@@ -1,7 +1,7 @@
 
 # redux-ramda-reducer
-![MIT](https://img.shields.io/dub/l/vibe-d.svg)
-
+[![Build Status](https://travis-ci.org/maxim-kolesnikov/redux-ramda-reducer.svg?branch=master)](https://travis-ci.org/maxim-kolesnikov/redux-ramda-reducer)
+[![MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/maxim-kolesnikov/redux-ramda-reducer/blob/master/LICENSE.md)
 
 ## Getting started
 ... TODO
