@@ -4,8 +4,6 @@
 [![dependencies](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer.svg)](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer)
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/maxim-kolesnikov/redux-ramda-reducer/blob/master/LICENSE.md)
 
-## Getting started
-
 ## Reducer with redux library
 
 ```javascript
@@ -49,7 +47,7 @@ const HANDLERS = {
 export default createReducer(INITIAL_STATE, HANDLERS);
 ```
 
-If ypu nedd STATE in handler:
+If you need STATE in handler:
 
 ```javascript
 import * as R from 'ramda';
