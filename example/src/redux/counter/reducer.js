@@ -6,17 +6,11 @@ export const INITIAL_STATE = {
   value: 1,
 };
 
-const incrementHandler = () => R.pipe(
-  R.evolve({ value: R.inc })
-);
+const incrementHandler = () =>  R.evolve({ value: R.inc });
 
-const decrementHandler = () => R.pipe(
-  R.evolve({ value: R.dec })
-);
+const decrementHandler = () => R.evolve({ value: R.dec });
 
-const setValueHandler = ({ value }) => R.pipe(
-  R.assoc('value', value),
-);
+const setValueHandler = ({ value }) => R.assoc('value', value);
 
 const HANDLERS = {
   [COUNTER_ACTIONS.SET_VALUE]: setValueHandler,
