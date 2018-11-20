@@ -4,6 +4,8 @@
 [![dependencies](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer.svg)](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer)
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/maxim-kolesnikov/redux-ramda-reducer/blob/master/LICENSE.md)
 
+Simple `createReducer` in functional style for Ramda library.
+
 ## Installation
 ```bash
   npm install redux-ramda-reducer
