@@ -4,6 +4,11 @@
 [![dependencies](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer.svg)](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer)
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/maxim-kolesnikov/redux-ramda-reducer/blob/master/LICENSE.md)
 
+## Installation
+```bash
+  npm install redux-ramda-reducer
+```
+
 ## Reducer with redux library
 
 ```javascript
