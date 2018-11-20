@@ -1,5 +1,7 @@
 
 # redux-ramda-reducer
+[![npm version](https://badge.fury.io/js/redux-ramda-reducer.svg)](https://badge.fury.io/js/redux-ramda-reducer)
+[![npm](https://img.shields.io/npm/dt/redux-ramda-reducer.svg)](https://npmcharts.com/compare/redux-ramda-reducer?minimal=true)
 [![Build Status](https://travis-ci.org/maxim-kolesnikov/redux-ramda-reducer.svg?branch=master)](https://travis-ci.org/maxim-kolesnikov/redux-ramda-reducer)
 [![dependencies](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer.svg)](https://david-dm.org/maxim-kolesnikov/redux-ramda-reducer)
 [![MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/maxim-kolesnikov/redux-ramda-reducer/blob/master/LICENSE.md)
