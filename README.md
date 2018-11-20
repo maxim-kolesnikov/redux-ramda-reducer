@@ -35,7 +35,7 @@ import * as R from 'ramda';
 import { createReducer } from 'redux-ramda-reducer';
 import { COUNTER_ACTIONS } from './constants';
 
-export const INITIAL_STATE = {
+const INITIAL_STATE = {
   value: 1,
 };
 
@@ -57,13 +57,7 @@ export default createReducer(INITIAL_STATE, HANDLERS);
 If you need STATE in handler:
 
 ```javascript
-import * as R from 'ramda';
-import { createReducer } from 'redux-ramda-reducer';
-import { COUNTER_ACTIONS } from './constants';
-
-export const INITIAL_STATE = {
-  value: 1,
-};
+...
 
 const setSameValueHandler = () => (state) => R.assoc('value', state.value)(state);
 
